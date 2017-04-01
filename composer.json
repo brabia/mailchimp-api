@@ -1,6 +1,7 @@
 {
 	"name": "brabia/mailchimp-api",
 	"description": "MailChimp API 3.0",
+	"keywords": ["MailChimp", "API"],
 	"version": "0.0.1",
 	"authors":
 	[
