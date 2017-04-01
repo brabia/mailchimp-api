@@ -1,10 +1,14 @@
 {
     "name": "brabia/mailchimp-api",
     "description": "MailChimp API 3.0",
+	"version": "0.0.1"
     "authors": [
         {
            "name"	: "Bassem Rabia",
 			"email"	: "bassem.rabia@gmail.com"
         }
-    ]
+    ],
+	"require": {
+        "brabia/mailchimp-api": "dev-master"
+    }
 }
