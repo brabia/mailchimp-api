@@ -10,6 +10,9 @@
 			"email"	: "bassem.rabia@gmail.com"
 		}
 	],
+	"require":
+	{
+	},
 	"minimum-stability": "dev",
 	"repositories":
 	[
