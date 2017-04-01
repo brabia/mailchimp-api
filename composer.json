@@ -1,14 +1,13 @@
 {
-    "name"			: "MailChimp API",
-    "description"	: "MailChimp API",
-    "keywords"		: ["MailChimp", "api"],
-    "license"		: "GPL-2.0+",
-    "authors"		:
-	[
-		{
-			"name"	: "Bassem Rabia",
-			"email"	: "bassem.rabia@gmail.com",
-			"homepage": ""
-		}
-    ]
+    "name": "brabia/mailchimp-api",
+    "description": "MailChimp API",
+    "authors": [
+        {
+           "name"	: "Bassem Rabia",
+			"email"	: "bassem.rabia@gmail.com"
+        }
+    ],
+    "require": {
+
+    }
 }
