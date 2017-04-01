@@ -1,7 +1,7 @@
 MailChimp API
 =============
 
-Super easy PHP MailChimp 3.0 API based.
+Super easy PHP based MailChimp 3.0 API.
 
 Installation
 ------------
@@ -16,21 +16,21 @@ composer install
 You will then need to:
 * add the autoloader to your application.
 
-Or just download the `MailChimp.php` file and include it:
+Or just download the `MailChimp.php` file and include it to your project:
 
 ```php
-include('./MailChimp.php'); 
+require('MailChimp.php'); 
 ```
 
 Examples
 --------
-
 ```
-$mailChimp = new MailChimp(
-	array(
-		'apiKey' => 'apiKey'
-	)
-);
+$mailChimp = new MailChimp(array(
+	'apiKey' => 'apiKey'
+));
+
+Get user details:
+
 $mailChimp->getUserDetails(array(
 	'user' => 'user@gmail.com', // user email
 	'listId' => 'listId' // Your MailChimp listId
