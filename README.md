@@ -31,6 +31,7 @@ $mailChimp = new MailChimp(array(
 ```
 
 Get user details:
+
 ```
 $mailChimp->getUserDetails(array(
 	'user' => 'user@gmail.com', // user email
