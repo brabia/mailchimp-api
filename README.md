@@ -28,9 +28,10 @@ Examples
 $mailChimp = new MailChimp(array(
 	'apiKey' => 'apiKey'
 ));
+```
 
 Get user details:
-
+```
 $mailChimp->getUserDetails(array(
 	'user' => 'user@gmail.com', // user email
 	'listId' => 'listId' // Your MailChimp listId
